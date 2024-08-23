@@ -1,0 +1,21 @@
+body {
+    background-color: whitesmoke
+}
+#resultado {
+    padding: 10px;
+    width: fit-content;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    padding: 10px;
+    
+}
