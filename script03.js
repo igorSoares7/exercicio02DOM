@@ -13,4 +13,3 @@ function execNomeCompleto() {
     let imprimeNomeCompleto = pessoa.concatenarNomes()
     imprimeNomeCompleto()
 }
-
