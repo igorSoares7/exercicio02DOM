@@ -10,16 +10,40 @@
 </head>
 
 <body>
-    <main>
+    <section class="divExercicios04">
+        <div>
+            <h1>Exercício 1</h1>
+        </div>
 
         <div>
             <button onclick="imprimePares()">Pares de 1 a 100</button>
-            <button onclick="limpar()">Limpar</button>
+            <button onclick="limpaPar()">Limpar</button>
         </div>
 
         <div id="numerosPar">
             Resultado...
         </div>
+
+    </section>
+
+    <section class="divExercicios04">
+        <div>
+            <h1>Exercício 2</h1>
+        </div>
+        <div id="insiraNotas">
+            <h2>Calcule a média de suas três notas</h2>
+            <input type="number" id="notaUm" placeholder="Insira a primeira nota">
+            <input type="number" id="notaDois" placeholder="Insira a segunda nota">
+            <input type="number" id="notaTres" placeholder="Insira a terceira nota">
+            <button onclick="calculaMedia()">Calcular</button>
+            <button onclick="limpaMedia()">Limpar</button>
+        </div>
+        <div id="resultadoMedia">
+            Resultado...
+        </div>
+
+
+    </section>
 
 </body>
 
