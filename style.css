@@ -1,31 +1,49 @@
 body {
-    background-color: whitesmoke
+    background-color: #CFE2FC;
 }
 
-.titulo{
+.titulo {
     border-bottom: solid 1px gray;
 }
+
 #resultado {
     padding: 10px;
     width: fit-content;
 }
 
-.center{
+.center {
     display: flex;
     justify-content: center;
     padding: 20px;
 }
 
-.links{
+.links {
     text-decoration: none;
     color: black;
     font-size: larger;
     padding: 10px;
     border-bottom: solid 1px gray;
-    
+
 }
 
 .links:hover {
     font-size: 20px;
     transition: 0.2s;
+}
+
+input {
+    display: block;
+}
+
+.nome_completo {
+    margin-bottom: 10px;
+}
+
+#resultado > span {
+    display: block;
+    padding-top: 10px;
+}
+
+#resultado {
+    padding: 5px;
 }
