@@ -3,10 +3,10 @@ function imprimePares() {
     let pares = ''
     for (let i = 1; i < 100; i++) {
         if (i % 2 == 0) {
-            pares += `${i} \n`
+            pares += `${i} | `
         }
     }
-    imprimeResultado.innerText = pares
+    imprimeResultado.innerHTML = pares
 }
 
 function limpaPar() {
@@ -41,4 +41,38 @@ function limpaMedia() {
     let limpaTela = document.getElementById("resultadoMedia")
     limpaTela.innerHTML = 'Resultado...'
     limpaTela.style = "none"
+}
+
+function menorNumero() {
+    let primeiroNumero = document.getElementById("menorUm").value
+    let segundoNumero = document.getElementById("menorDois").value
+    let imprimeResultado = document.getElementById("resultadoMenor")
+
+    if (Number(primeiroNumero) < Number(segundoNumero)) {
+        imprimeResultado.innerHTML = `O primeiro : ${Number(primeiroNumero)}`
+    } else {
+        imprimeResultado.innerHTML = `O segundo : ${Number(segundoNumero)}`
+    }
+}
+
+function limpaMenor() {
+    let limpaTela = document.getElementById("resultadoMenor")
+    limpaTela.innerHTML = 'Resultado...'
+}
+
+function maiorNumero() {
+    let primeiroNumero = document.getElementById("maiorUm").value
+    let segundoNumero = document.getElementById("maiorDois").value
+    let imprimeResultado = document.getElementById("resultadoMaior")
+
+    if (Number(primeiroNumero) > Number(segundoNumero)) {
+        imprimeResultado.innerHTML = `O primeiro : ${Number(primeiroNumero)}`
+    } else {
+        imprimeResultado.innerHTML = `O segundo : ${Number(segundoNumero)}`
+    }
+}
+
+function limpaMaior() {
+    let limpaTela = document.getElementById("resultadoMaior")
+    limpaTela.innerHTML = 'Resultado...'
 }

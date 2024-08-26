@@ -53,10 +53,11 @@ input {
     padding-bottom: 7px;
 }
 
-#numerosPar, #resultadoMedia {
-    padding-top: 7px;
+#numerosPar, #resultadoMedia, #resultadoMenor, #resultadoMaior {
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
-#insiraNotas > input {
+.divInline > input {
   display: inline;
 }

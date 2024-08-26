@@ -10,9 +10,12 @@
 </head>
 
 <body>
+    <div>
+        <h1>Exercícios 04</h1>
+    </div>
     <section class="divExercicios04">
         <div>
-            <h1>Exercício 1</h1>
+            <h2>Atividade 1</h2>
         </div>
 
         <div>
@@ -28,10 +31,10 @@
 
     <section class="divExercicios04">
         <div>
-            <h1>Exercício 2</h1>
+            <h2>Atividade 2</h2>
         </div>
-        <div id="insiraNotas">
-            <h2>Calcule a média de suas três notas</h2>
+        <div class="divInline">
+            <h3>Calcule a média de suas três notas</h3>
             <input type="number" id="notaUm" placeholder="Insira a primeira nota">
             <input type="number" id="notaDois" placeholder="Insira a segunda nota">
             <input type="number" id="notaTres" placeholder="Insira a terceira nota">
@@ -42,7 +45,41 @@
             Resultado...
         </div>
 
+    </section>
 
+    <section class="divExercicios04">
+        <div>
+            <h2>Atividade 3</h2>
+        </div>
+        <div>
+            <h3>Qual destes números é o menor?</h3>
+        </div>
+        <div class="divInline">
+            <input type="number" id="menorUm" placeholder="Insira o primeiro número">
+            <input type="number" id="menorDois" placeholder="Insira o segundo número">
+            <button onclick="menorNumero()">O menor é...</button>
+            <button onclick="limpaMenor()">Limpar</button>
+        </div>
+        <div id="resultadoMenor">
+            Resultado...
+        </div>
+    </section>
+    <section class="divExercicios04">
+        <div>
+            <h2>Atividade 4</h2>
+        </div>
+        <div>
+            <h3>Qual destes números é o maior?</h3>
+        </div>
+        <div class="divInline">
+            <input type="number" id="maiorUm" placeholder="Insira o primeiro número">
+            <input type="number" id="maiorDois" placeholder="Insira o segundo número">
+            <button onclick="maiorNumero()">O maior é...</button>
+            <button onclick="limpaMaior()">Limpar</button>
+        </div>
+        <div id="resultadoMaior">
+            Resultado...
+        </div>
     </section>
 
 </body>
